@@ -1,106 +1,156 @@
-*{box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;}
-body{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-/*header*/
-header{
-    background-color: #222222;
-    color: #ffffff;
-    padding: 10px 0px;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-.logo{
-    position: relative;
-    right: 560px;
-    bottom: 80px;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*header*/
+header {
+  background-color: #222222;
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+}
+.logo {
+  position: relative;
+  right: 560px;
+  bottom: 80px;
 }
 .nav {
-
 }
 /*banner*/
-.banner{
-
-    text-align: center;
-    font-size: 50px;
-    background-image: url(../img/img\ 1.png);
-    color: white;
-    padding: 200px 0px;
-    background-clip: padding-box;
-    background-size: cover;
+.banner {
+  text-align: center;
+  font-size: 50px;
+  background-image: url(../img/img\ 1.png);
+  color: white;
+  padding: 200px 0px;
+  background-clip: padding-box;
+  background-size: cover;
 }
-.banner button:last-child{
-    width: 120px;
-    height: 40px;
-    background:red;
-    border:none;
-    color: white;
-    border-radius: 5px;
+.banner button:last-child {
+  width: 120px;
+  height: 40px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
 }
 /*main*/
-main{
-    background-color: antiquewhite;
+main {
+  background-color: antiquewhite;
 }
 /*productos*/
 .Productos {
-text-align: center;
+  text-align: center;
+  position: relative;
+  top: 50px;
 }
-#detroit{
-    background-color: white;
-    width: 250px;
-    padding: 10px;
-    border: 10px transparent;
-    margin: 10px;
-    background-origin: padding-box;
-    position:relative;
-    left: 200px;
+#detroit {
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border: 10px transparent;
+  margin: 10px;
+  background-origin: padding-box;
+  position: relative;
+  left: 200px;
 }
-#detroit p{
-    position: relative;
-    text-align:left;
+#detroit p {
+  position: relative;
+  text-align: left;
 }
-#detroit p:last-child{
-    color: green;
-    font-size: 10px;
+#detroit p:last-child {
+  color: green;
+  font-size: 10px;
 }
 #fifa {
-    background-color: white;
-    width: 250px;
-    padding: 10px;
-    border: 10px transparent;
-    margin: 10px;
-    background-origin: padding-box;
-    position:relative;
-    left: 540px;
-    bottom: 249px;
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border: 10px transparent;
+  margin: 10px;
+  background-origin: padding-box;
+  position: relative;
+  left: 540px;
+  bottom: 249px;
 }
-#fifa p{
-    position: relative;
-    text-align:left;
+#fifa p {
+  position: relative;
+  text-align: left;
 }
-#fifa p:last-child{
-    color: green;
-    font-size: 10px;
+#fifa p:last-child {
+  color: green;
+  font-size: 10px;
 }
 #mk {
-    background-color: white;
-    width: 250px;
-    padding: 10px;
-    border: 10px transparent;
-    margin: 10px;
-    background-origin: padding-box;
-    position:relative;
-    left: 879px;
-    bottom: 498px;
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border: 10px transparent;
+  margin: 10px;
+  background-origin: padding-box;
+  position: relative;
+  left: 879px;
+  bottom: 498px;
 }
-#mk p{
+#mk p {
+  position: relative;
+  text-align: left;
+}
+#mk p:last-child {
+  color: green;
+  font-size: 10px;
+}
+/*productosestrellas*/
+.productosEstrellas {
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  height: 190px;
+  position: relative;
+  margin: auto;
+  bottom: 350px;
+}
+#sillas {
+  position: relative;
+  color: white;
+  background-image: url(../img/banner\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  border: 0 transparent;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+#sillas p {
+  position: relative;
+  text-align: right;
+  margin-top: 30px;
+}
+#computadoras {
+  position: relative;
+  color: white;
+  background-image: url(../img/Banner\ img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  border: 0 transparent;
+  border-radius: 10px;
+  margin-left: 600px;
+  bottom: 100px;
+}
+#computadoras p {
     position: relative;
-    text-align:left;
-}
-#mk p:last-child{
-    color: green;
-    font-size: 10px;
-}
+    text-align: right;
+    margin-top: 30px;
+  }
