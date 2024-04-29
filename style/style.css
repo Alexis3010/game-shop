@@ -14,13 +14,25 @@ header {
   color: #ffffff;
   padding: 10px 0px;
   text-align: center;
+  height:100px;
 }
 .logo {
   position: relative;
   right: 560px;
-  bottom: 80px;
+  bottom: 110px;
+}
+li{
+    padding-left: 10px;
 }
 .nav {
+    list-style-type: none;
+    display:flex;
+    margin: 50px;
+    width: 350px;
+    position:relative;
+    left: 940px;
+    bottom: 20px;
+
 }
 /*banner*/
 .banner {
@@ -114,7 +126,7 @@ main {
   height: 190px;
   position: relative;
   margin: auto;
-  bottom: 350px;
+  bottom: 250px;
 }
 #sillas {
   position: relative;
@@ -153,4 +165,34 @@ main {
     position: relative;
     text-align: right;
     margin-top: 30px;
+  }
+  footer{
+    text-align: center;
+    background-color: #283238;
+    margin: auto;
+    border: 0px;
+    padding: 0px;
+    position: relative;
+    height: 250px;
+  }
+  .logo2{
+    position: relative;
+    padding: 0px;
+    border: 0px;
+right: 500px;
+top: 50%;
+  }
+  .redes{
+    color:white;
+    width: 150px;
+    position: relative;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    left: 1150px;
+    top: 30%;
+  }
+  .derechos{
+    position: relative;
+    top: 60%;
   }
